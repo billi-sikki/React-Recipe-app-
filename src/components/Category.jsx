@@ -9,19 +9,19 @@ import React from 'react'
 const Category = () => {
   return (
     <List>
-        <NavLink to={'/cuisine/Italian'}>
+        <NavLink to={'/Cuisine/Italian'}>
         <FaPizzaSlice/>
         <h4>Italian</h4>
         </NavLink>
-        <NavLink to={'/cuisine/American'}>
+        <NavLink to={'/Cuisine/American'}>
         <FaHamburger/>
         <h4>American</h4>
         </NavLink >
-        <NavLink to={'/cuisine/Thai'}>
+        <NavLink to={'/Cuisine/Thai'}>
         <GiFastNoodles/>
         <h4>Thai</h4>
         </NavLink >
-        <NavLink to={'/cuisine/Japanese'}>
+        <NavLink to={'/Cuisine/Japanese'}>
         <GiChopsticks/>
         <h4>Japanese</h4>
         </NavLink>
