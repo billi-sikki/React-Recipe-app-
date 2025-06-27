@@ -15,7 +15,7 @@ const Pages = () => {
       </Routes>
   
   )
-}
+};
 
 export default Pages;
 
