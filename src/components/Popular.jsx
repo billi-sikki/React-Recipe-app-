@@ -75,6 +75,7 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
+filter:  contrast(1.2) ;
 }
 
 p{
@@ -101,6 +102,7 @@ z-index:11;
 width:100%
 height:100%;
 background:linear-gradient(rgba ( 0,0,0,0), rgba(0,0,0,1));
+ 
 `
 
 

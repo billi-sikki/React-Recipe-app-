@@ -57,7 +57,7 @@ const[veggie,setVeggie]=useState([]);
 }
 
 const Wrapper= styled.div`
-margin:4rem 0rem;
+margin:0rem 0rem;
 `;
 
 const Card= styled.div`
@@ -73,6 +73,7 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
+filter: contrast(1.2);
 
 }
 
@@ -99,7 +100,7 @@ position:absolute;
 z-index:11;
 width:100%
 height:100%;
-background:linear-gradient(rgba ( 0,0,0,0), rgba(0,0,0,1));
+background:linear-gradient(rgba ( 0,0,0,0), rgba(0,0,0,0.5));
 `
 
 export default Veggie;
