@@ -3,7 +3,7 @@ import React from 'react'
 import Home from './Home';
 import Cuisine from './Cuisine';
 import Searched from './Searched';
-
+import Recipe from './Recipe';
 import{Route, Routes} from 'react-router-dom';
 
 const Pages = () => {
@@ -14,6 +14,7 @@ const Pages = () => {
       <Route path='/Cuisine/:type' element={<Cuisine/>} />
       <Route path='/Cuisine' element={<Cuisine/>} />
       <Route path='/Searched/:search' element={<Searched/>} />
+      <Route path='/Recipe/:name' element={<Recipe/>} />
 
 
       </Routes>

@@ -3,6 +3,7 @@ import styled from 'styled-components'; //Styled-components is a library for Rea
 
 import{Splide, SplideSlide} from "@splidejs/react-splide";
 import '@splidejs/react-splide/css'; // Import Splide core CSS
+import { Link } from 'react-router-dom';
 
 const Popular = () => {
 
@@ -35,7 +36,7 @@ const Popular = () => {
             <Wrapper>
                 <h3>Popular Picks</h3>
                 <Splide options={{
-                    perPage:4,
+                    perPage:3,
                     arrows:false,
                     pagination:false,
                     drag:'free',
@@ -45,9 +46,11 @@ const Popular = () => {
                    return(
                       <SplideSlide key={recipe.id}> 
                       <Card>
+                        <Link to={'/Recipe/'+ recipe.id}>
                       <p>{recipe.title}</p>
                       <img src={recipe.image} alt={recipe.title}/>
                       <Gradient/>
+                      </Link>
                       </Card>
                       </SplideSlide>
                          )
