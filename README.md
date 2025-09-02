@@ -1,5 +1,3 @@
-# React Crash Course – React JS Tutorial for Beginners
-
 📌 **Overview**
 
 This project covers the fundamentals of React.js, including:
